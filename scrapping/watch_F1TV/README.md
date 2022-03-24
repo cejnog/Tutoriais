@@ -22,10 +22,8 @@ With changes on navigation of the website, the navigation was made easier (they 
 The Jupyter notebook presented in this folder details the prototipation process step by step, given as parameters the year you want to watch and the number of the race you want to start :)
 
 **USAGE**:
->    Configure .env with credentials (login and password for f1TV)
-
->    Execute python script: `python3.9 watch-f1tv.py <year> <race number>`
-
+*   Configure .env with credentials (login and password for f1TV)
+*   Follow the steps described on the cells of the Jupyter-notebook
 
 **REQUIREMENTS**
 * Google Chrome
