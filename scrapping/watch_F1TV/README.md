@@ -16,6 +16,9 @@ So, my problem was: *could I automatize browser navigation simulating the creati
 
 With the scope defined, I went for mapping the interaction flow in order to open a video on the site player (including elements and wait times), researched about cookies and session registration for f1tv login, found out how to use info copied on the clipboard by the g-hartmann website and developed a solution able to solve this small problem!
 
+## Third solution:
+With changes on navigation of the website, the navigation was made easier (they made lots of enhancements server-side!) but I still haven't got my playlist and myold code did not run anymore. Therefore I modified some aspects of the mapped flow, using links that can give access to season webpages. With this, we can access the videos using only the inner navigation flow. This solution is the current solution on the notebook.
+
 The Jupyter notebook presented in this folder details the prototipation process step by step, given as parameters the year you want to watch and the number of the race you want to start :)
 
 **USAGE**:
@@ -33,4 +36,4 @@ The Jupyter notebook presented in this folder details the prototipation process 
 
 ## Disclaimer
 
-If you work on F1TV, I am not trying to download any content or to DDOS attack your servers, it is just a fun personal project that made me learn a little bit more about website automation and scrappers :)
+If you work on F1TV, I am not trying to download any content or to DDOS attack your servers, it is just a fun personal project that made me learn a little bit more about website automation and scrappers. Don't block me please :)
